@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2544177237</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\arch\arm\kernel\devicetree.c</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\head.s</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\irq.c</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\kernel\setup.c</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\soc-emw3162.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\base\core.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\base\bus.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\clock\stm32_clock.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\base\platform.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\gpio\stm32_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\sdt\sdt.c</file>
+      <file>$PROJ_DIR$\..\..\drivers\serial\stm32_uart.c</file>
+      <file>$PROJ_DIR$\..\..\init\main.c</file>
+      <file>$PROJ_DIR$\..\..\mico\mico_port.c</file>
+      <file>$PROJ_DIR$\..\..\mico\mxchipWNet_cm3_sdio.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bus.pbi</file>
+      <file>$PROJ_DIR$\..\..\include\mico\debug.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\devicetree.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\devicetree.o</file>
+      <file>$PROJ_DIR$\..\..\drivers\base\base.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bus.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\core.pbi</file>
+      <file>$PROJ_DIR$\..\..\include\mico\platform_device.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\device.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\sdt\sdt.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\setup.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\setup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sdt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\head.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\include\mico\wlan.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\rtos.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\mico.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup.o</file>
+      <file>$PROJ_DIR$\..\..\include\mico\compiler.h</file>
+      <file>$PROJ_DIR$\..\..\include\types.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\mico.bin</file>
+      <file>$PROJ_DIR$\..\..\drivers\of\irq.c</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+      <file>$PROJ_DIR$\Debug\List\mico.map</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\startup.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\platform.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\platform.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\mico.out</file>
+      <file>$PROJ_DIR$\mico.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\mico_port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mico_port.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\irq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\irq.o</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\include\asm\mach\arch.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\soc-emw3162.pbi</file>
+      <file>$PROJ_DIR$\..\..\mico\platform.c</file>
+      <file>$PROJ_DIR$\..\..\include\mico\init.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\kernel.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\soc-emw3162.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\include\list.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\types.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\kref.h</file>
+      <file>$PROJ_DIR$\..\..\include\mico\klist.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\klist.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\klist.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\soc-emw3165.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\soc-emw3165.o</file>
+      <file>$PROJ_DIR$\..\..\drivers\base\dd.c</file>
+      <file>$PROJ_DIR$\..\..\lib\klist.c</file>
+      <file>$PROJ_DIR$\..\..\arch\arm\mach-emw3165\soc-emw3165.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\kernel\devicetree.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\head.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\kernel\setup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 63 47 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 47 63 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\soc-emw3162.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 27 47 63 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 47 27 48 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\base\core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 21 80 78 79 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 21 80 78 79 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\base\bus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 21 80 67 48 78 79 77 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 21 80 78 79 77 67 47 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\clock\stm32_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 79 26 25 21 66 67 80 78 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 47 25 26 21 80 78 79 77 67</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\base\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 21 25 80 78 79 77 67 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 21 80 78 79 77 25 67 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\gpio\stm32_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\sdt\sdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 21 26 27 79 66 48 80 78 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 48 66 47 26 21 80 78 79 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\serial\stm32_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 48 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 47 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\init\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 16 66 48 69 41 71 70 40 47 72 73 74 75 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 41 48 66 47 16 15 72 70 75 76 73 74 71 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\mico\mico_port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\of\irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\mach-emw3162\startup.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\mico.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 58 22 23 83 20 38 62 81 45 60 14 55 35 33 68 86 29 36 31 43 56 39 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\mico\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 57 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\base\dd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 21 48 80 78 79 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 21 80 78 79 77 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lib\klist.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80 79 78 67 48 77 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 78 79 77 67 47 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\arch\arm\mach-emw3165\soc-emw3165.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 27 47 63 48</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66 47 27 48 63</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
